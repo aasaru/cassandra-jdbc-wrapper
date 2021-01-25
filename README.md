@@ -39,10 +39,10 @@ If you are having issues connecting to the cluster (seeing `NoHostAvailableConne
 
 Clone the repository:
 ```bash
-git clone git@github.com:ing-bank/cassandra-jdbc-wrapper.git
+git clone https://github.com/ing-bank/cassandra-jdbc-wrapper
 ```
 
-To compile and run tests, execute the following Maven command:
+To compile and run tests, execute the following Maven command (using Java 8 JDK):
 ```bash
 mvn clean package
 ```
